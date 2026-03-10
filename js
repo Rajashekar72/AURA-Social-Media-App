@@ -20,5 +20,18 @@ function App() {
     </Router>
   );
 }
-
 export default App;
+
+
+// tailwind.config.js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        twitterBlue: '#1DA1F2',
+        darkBg: '#15202b', // "Dim" mode
+        deepBlack: '#000000', // "Lights Out" mode
+      },
+    },
+  },
+}
